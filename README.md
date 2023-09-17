@@ -1,6 +1,6 @@
 # Lab-3-Templates
 
-## HeterogeneousPair Template Class Exercise
+## Exercise 1: HeterogeneousPair Template Class Exercise
 
 ### Introduction
 
@@ -49,7 +49,7 @@ The main objective of this exercise is to understand and practice working with t
      ```
 
 
-## Sorting Bank Accounts by Balance Exercise
+## Exercise 2: Sorting Bank Accounts by Balance Exercise
 
 In this programming exercise, you will practice creating a `std::vector` of `Account` objects, where `Account` is a user-defined data type containing relevant bank account information. You will add multiple instances of the `Account` class to the vector and then sort the vector in ascending order based on the account balances.
 
@@ -93,3 +93,40 @@ In the sample output above, the accounts are sorted in ascending order based on 
 4. Try sorting the accounts in descending order (highest balance first) by modifying the `compareByBalance` function.
 
 5. Use this exercise to practice working with user-defined classes, vectors, and custom sorting criteria.
+
+Certainly! Here's a sample README section that you can include in your project to provide information and instructions for users:
+
+
+# Exercise 3: Student Management System
+
+## Overview
+
+The Student Management System is a C++ program that allows you to create a list of `Student` objects, store their information, and sort them by name in both ascending and descending order. The `Student` class stores information about each student, including their NetID, name, age, and gender.
+
+
+
+## Usage
+
+1. Upon running the program, you can add `Student` instances to the list by providing their NetID, name, age, and gender.
+
+2. The program allows you to sort the list of students by name in ascending and descending order.
+
+3. The sorted list will be displayed on the console, showing student information.
+
+## Sample Output
+
+Here's an example of the program's output:
+
+```
+Sorted by name in ascending order:
+NetID: s12345, Name: Alice, Age: 20, Gender: Female
+NetID: s54321, Name: Bob, Age: 22, Gender: Male
+NetID: s98765, Name: Charlie, Age: 21, Gender: Male
+NetID: s24680, Name: David, Age: 19, Gender: Male
+
+Sorted by name in descending order:
+NetID: s24680, Name: David, Age: 19, Gender: Male
+NetID: s98765, Name: Charlie, Age: 21, Gender: Male
+NetID: s54321, Name: Bob, Age: 22, Gender: Male
+NetID: s12345, Name: Alice, Age: 20, Gender: Female
+```
